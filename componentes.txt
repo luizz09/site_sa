@@ -1,0 +1,11 @@
+// conceitos e aplicações (se possível, vídeo em funcionamento)
+- disjuntor
+- contator
+- botão de pulso ou botoeira
+- chave manopla ou retenção
+- sensor fim de curso
+- motor elétrico de indução trifásico
+- multímetro
+- relé temporizador
+- disjuntor motor
+- relé térmico
