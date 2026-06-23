@@ -1,33 +1,45 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
+body {
     text-align: center;
-    background-color: #b6b4b4;
-    font-size: 1.15rem;
+    background-color: #c2c0c0;
+    font-size: 1rem;
     color: #1F2937;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     font-family: Arial;
+    -webkit-tap-highlight-color: transparent;
 }
 
-header{
-    background-color: #8AA9C2;
+header {
+    background-color: #7A9DB8;
     width: 100%;
-    padding: 12px 0px;
+    padding: 14px 16px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-main{
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+}
+
+main {
     flex: 1;
-    padding: 20px 12px;
+    padding: 20px 16px;
     display: flex;
     flex-direction: column;
 }
 
-.metade{
+.metade {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -36,104 +48,114 @@ main{
     text-decoration: underline white;
 }
 
-footer{
-    background-color: #8AA9C2;
+footer {
+    background-color: #7A9DB8;
     width: 100%;
     padding: 15px 0px;
     text-align: center;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1{
+h1 {
     margin-bottom: 24px;
+    font-size: 1.4rem;
+    color: #1a2636;
+    letter-spacing: 0.3px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
     transition: background-color 0.3s, padding 0.3s;
 }
 
-span{
+span {
     color: white;
 }
 
-a:hover{
+a:hover {
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
 }
 
 header a:hover,
-footer a:hover{
+footer a:hover {
     padding: 4px 8px;
 }
 
-section{
+section {
     background-color: #DCE6F0;
-    border-radius: 12px;
+    border-radius: 14px;
     padding: 16px;
-    margin: 0 auto 20px;
+    margin: 0 auto 16px;
+    width: 100%;
     max-width: 600px;
     text-align: left;
-    transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.4s ease;
+    border: 1px solid rgba(106, 140, 175, 0.25);
 }
 
-section:hover{
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+section:hover {
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-section h3{
+section h3 {
     text-align: center;
     margin-bottom: 10px;
-    color: #4A5A8C;
+    color: #3D5080;
+    font-size: 1.05rem;
+    letter-spacing: 0.2px;
 }
 
-section img{
+section img {
     display: block;
-    margin: 0 auto 10px;
-    width: 90%;
-    max-width: 300px;
+    margin: 0 auto 12px;
+    width: 100%;
+    max-width: 340px;
     height: auto;
-    border-radius: 9px;
+    border-radius: 10px;
     border: 1px solid #6B7D9A;
 }
 
-section p{
+section p {
     margin: 6px 0;
     text-indent: 1.2rem;
+    color: #2d3d50;
+    line-height: 1.55;
 }
 
-hr{
+hr {
     border: none;
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
     width: 100%;
     align-self: stretch;
     margin: 12px 0;
 }
 
-.link{
+.link {
     padding: 0px;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 0px;
-}    
+}
 
-.linkgithub{
+.linkgithub {
     background-color: #E8EDF4be;
     display: inline-flex;
     align-items: center;
-    padding: 2px;
-    border-radius: 6px;
+    padding: 2px 6px 2px 2px;
+    border-radius: 8px;
     border: 1px solid #8AA9C2;
     transition: background-color 0.3s;
+    gap: 6px;
 }
 
-.linkgithub:hover{
+.linkgithub:hover {
     background-color: #d4dde8be;
 }
 
-.linkgithub img{
+.linkgithub img {
     width: 35px;
     height: 35px;
     border-radius: 16px;
