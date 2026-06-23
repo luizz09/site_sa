@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body {
+body{
     text-align: center;
     background-color: #c2c0c0;
     font-size: 1rem;
@@ -16,14 +16,14 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-header {
+header{
     background-color: #7A9DB8;
     width: 100%;
     padding: 14px 16px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
-nav {
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,14 +32,14 @@ nav {
     font-size: 0.95rem;
 }
 
-main {
+main{
     flex: 1;
     padding: 20px 16px;
     display: flex;
     flex-direction: column;
 }
 
-.metade {
+.metade{
     flex: 1;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ main {
     text-decoration: underline white;
 }
 
-footer {
+footer{
     background-color: #7A9DB8;
     width: 100%;
     padding: 15px 0px;
@@ -56,34 +56,34 @@ footer {
     box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1{
     margin-bottom: 24px;
     font-size: 1.4rem;
     color: #1a2636;
     letter-spacing: 0.3px;
 }
 
-a {
+a{
     color: white;
     text-decoration: none;
     transition: background-color 0.3s, padding 0.3s;
 }
 
-span {
-    color: white;
-}
-
-a:hover {
+a:hover{
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 8px;
 }
 
+span{
+    color: white;
+}
+
 header a:hover,
-footer a:hover {
+footer a:hover{
     padding: 4px 8px;
 }
 
-section {
+section{
     background-color: #DCE6F0;
     border-radius: 14px;
     padding: 16px;
@@ -95,11 +95,11 @@ section {
     border: 1px solid rgba(106, 140, 175, 0.25);
 }
 
-section:hover {
+section:hover{
     box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-section h3 {
+section h3{
     text-align: center;
     margin-bottom: 10px;
     color: #3D5080;
@@ -107,7 +107,7 @@ section h3 {
     letter-spacing: 0.2px;
 }
 
-section img {
+section img{
     display: block;
     margin: 0 auto 12px;
     width: 100%;
@@ -117,14 +117,14 @@ section img {
     border: 1px solid #6B7D9A;
 }
 
-section p {
+section p{
     margin: 6px 0;
     text-indent: 1.2rem;
     color: #2d3d50;
     line-height: 1.55;
 }
 
-hr {
+hr{
     border: none;
     border-top: 1px solid rgba(255, 255, 255, 0.6);
     width: 100%;
@@ -132,7 +132,7 @@ hr {
     margin: 12px 0;
 }
 
-.link {
+.link{
     padding: 0px;
     text-decoration: none;
     display: flex;
@@ -140,7 +140,7 @@ hr {
     align-items: center;
 }
 
-.linkgithub {
+.linkgithub{
     background-color: #E8EDF4be;
     display: inline-flex;
     align-items: center;
@@ -151,35 +151,35 @@ hr {
     gap: 6px;
 }
 
-.linkgithub:hover {
+.linkgithub:hover{
     background-color: #d4dde8be;
 }
 
-.linkgithub img {
+.linkgithub img{
     width: 35px;
     height: 35px;
     border-radius: 16px;
 }
 
-.pag a {
+.pag a{
     display: block;
     color: #3D5080;
     text-decoration: none;
 }
 
-.pag:hover {
+.pag:hover{
     box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-.pag h3 {
+.pag h3{
     color: #3D5080;
     text-align: center;
     margin-bottom: 8px;
     font-size: 1.1rem;
 }
 
-.pag p {
+.pag p{
     color: #2d3d50;
     text-indent: 1.2rem;
     line-height: 1.55;
