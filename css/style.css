@@ -119,7 +119,6 @@ section img{
 
 section p{
     margin: 6px 0;
-    text-indent: 1.2rem;
     color: #2d3d50;
     line-height: 1.55;
 }
@@ -181,6 +180,5 @@ hr{
 
 .pag p{
     color: #2d3d50;
-    text-indent: 1.2rem;
     line-height: 1.55;
 }
