@@ -8,13 +8,57 @@
 </head>
 <body>
     <header>
-
+        <nav>
+            <a href="../index.html">Principal</a><span> /</span>
+            <a href="./simulacoes.html">Simulações</a>
+        </nav>
     </header>
     <main>
+        <h1>Ladder no TIA Portal V20</h1>
 
+        <section>
+            <h3>O que é o TIA Portal</h3>
+            <p>-> Como funciona?</p>
+            <p>É o programa da Siemens usado pra montar a lógica ladder do CLP. Abaixo estão os principais elementos usados nas simulações.</p>
+
+            <div class="grade">
+                <div class="item">
+                    <h4>Contatos NA / NF</h4>
+                    <p>Mostram as condições do circuito. O NA fica aberto e o NF fica fechado, no estado normal deles.</p>
+                </div>
+                <div class="item">
+                    <h4>Bobinas Set [S] / Reset [R]</h4>
+                    <p>Servem pra ligar uma saída e deixá-la assim. O Set liga, o Reset desliga.</p>
+                </div>
+                <div class="item">
+                    <h4>Bobina de Atribuição ( )</h4>
+                    <p>Define se a saída fica ligada ou desligada, de acordo com a lógica programada.</p>
+                </div>
+                <div class="item">
+                    <h4>Temporizadores TON / TOF / TP</h4>
+                    <p>Servem pra controlar o tempo: atrasar pra ligar, atrasar pra desligar ou gerar um pulso.</p>
+                </div>
+                <div class="item">
+                    <h4>Ramificações (Branch)</h4>
+                    <p>Criam caminhos paralelos na lógica, então dá pra ter condições diferentes levando à mesma ação.</p>
+                </div>
+                <div class="item">
+                    <h4>Tabela de TAGs</h4>
+                    <p>É onde ficam organizadas as variáveis do projeto: entradas, saídas, memórias e outros elementos do CLP.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Contato Selo (Ladder)</h3>
+            <p>-> Como funciona?</p>
+            <p>B1 é NA (I0.0) e B2 é NF (I0.1). Ao apertar B1 a saída Q0.0 liga e se mantém ligada pelo próprio contato de Q0.0 em paralelo, mesmo depois de soltar o botão. Apertando B2 (NF), o circuito é interrompido e Q0.0 desliga.</p>
+            <img src="../img/ladder/contato_selo.png" alt="Contato Selo Ladder">
     </main>
     <footer>
-        
+        <div class="linkgithub">
+            <a class="link" href="https://github.com/luizz09/"><img src="../img/github.png" alt=""><span>by Luiz &copy; &trade;</span></a>
+        </div>
     </footer>
 </body>
 </html>

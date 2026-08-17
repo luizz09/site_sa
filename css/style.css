@@ -140,7 +140,7 @@ hr{
 }
 
 .linkgithub{
-    background-color: #E8EDF4be;
+    background-color: #b9b1b1;
     display: inline-flex;
     align-items: center;
     padding: 2px 6px 2px 2px;
@@ -182,3 +182,32 @@ hr{
     color: #2d3d50;
     line-height: 1.55;
 }
+
+.grade{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.grade .item{
+    background-color: #EAF0F7;
+    border: 1px solid rgba(106, 140, 175, 0.35);
+    border-radius: 10px;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.grade .item h4{
+    color: #3D5080;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+
+.grade .item p{
+    font-size: 0.88rem;
+    line-height: 1.45;
+    color: #2d3d50;
+    margin: 0;
+}
+
