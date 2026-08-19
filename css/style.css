@@ -39,15 +39,6 @@ main{
     flex-direction: column;
 }
 
-.metade{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    text-decoration: underline white;
-}
-
 footer{
     background-color: #7A9DB8;
     width: 100%;
@@ -121,14 +112,6 @@ section p{
     margin: 6px 0;
     color: #2d3d50;
     line-height: 1.55;
-}
-
-hr{
-    border: none;
-    border-top: 1px solid rgba(255, 255, 255, 0.6);
-    width: 100%;
-    align-self: stretch;
-    margin: 12px 0;
 }
 
 .link{
@@ -209,5 +192,57 @@ hr{
     line-height: 1.45;
     color: #2d3d50;
     margin: 0;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galeria a{
+    display: block;
+}
+
+.galeria img{
+    width: 100%;
+    max-width: none;
+    height: 140px;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 10px;
+    border: 1px solid #6B7D9A;
+    cursor: pointer;
+    transition: transform 0.25s ease;
+}
+
+.galeria img:hover{
+    transform: scale(1.03);
+}
+
+.video-item{
+    margin-bottom: 16px;
+}
+
+.video-item:last-child{
+    margin-bottom: 0;
+}
+
+.video-item p{
+    text-align: center;
+    font-weight: bold;
+    color: #3D5080;
+    margin-bottom: 8px;
+}
+
+section video{
+    display: block;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #6B7D9A;
+    background-color: #000;
 }
 
