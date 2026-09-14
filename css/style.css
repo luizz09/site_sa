@@ -246,3 +246,31 @@ section video{
     background-color: #000;
 }
 
+@media (min-width: 768px){
+    body{
+        font-size: 1.05rem;
+    }
+
+    main{
+        padding: 32px 24px;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    nav{
+        font-size: 1.05rem;
+        gap: 8px;
+    }
+
+    section{
+        max-width: 700px;
+        padding: 24px;
+    }
+
+    section img{
+        max-width: 420px;
+    }
+}
+
